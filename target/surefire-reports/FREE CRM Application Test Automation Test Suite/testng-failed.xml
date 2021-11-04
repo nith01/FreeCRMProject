@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtentReporterListener.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="FREE CRM App Regression TestCases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPage1Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="FreeCrmLogoTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPage1Test -->
+    </classes>
+  </test> <!-- FREE CRM App Regression TestCases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
