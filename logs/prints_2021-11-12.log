@@ -1,0 +1,13 @@
+[INFO ] 2021-11-12 01:48:00,602 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
+[INFO ] 2021-11-12 01:48:07,789 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2021-11-12 01:48:08,639 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
+[INFO ] 2021-11-12 01:48:09,003 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
+[INFO ] 2021-11-12 01:48:24,568 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest
+[INFO ] 2021-11-12 01:49:17,844 LoginPage2Test.FreeCrmLogoTest() - Successfully validated the logo FreeCRM
+[INFO ] 2021-11-12 01:49:18,477 Listeners.onTestSuccess() - Successfully passed testcase:FreeCrmLogoTest
+[INFO ] 2021-11-12 01:49:28,928 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2021-11-12 01:49:40,192 Listeners.onTestSuccess() - Successfully passed testcase:Login1Test
+[ERROR] 2021-11-12 01:50:42,784 Listeners.onTestFailure() - failed testcase:validateAddContact
+[INFO ] 2021-11-12 01:51:23,173 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2021-11-12 01:52:00,699 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2021-11-12 01:52:37,046 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact

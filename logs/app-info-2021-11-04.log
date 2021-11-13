@@ -1,0 +1,10 @@
+[INFO ] 2021-11-04 03:21:03.525 [main] Listeners - Successfully passed testcase:loginPage1TitleTest
+/pattern>[INFO ] 2021-11-04 03:21:10.262 [main] LoginPage2Test - Driver invoked and launched the browser successfully
+/pattern>[INFO ] 2021-11-04 03:21:11.118 [main] LoginPage2Test - Successfully validated the title
+/pattern>[INFO ] 2021-11-04 03:21:11.118 [main] Listeners - Successfully passed testcase:loginPage2TitleTest
+/pattern>[INFO ] 2021-11-04 03:21:24.449 [main] Listeners - Successfully passed testcase:homepageTitleTest
+/pattern>[INFO ] 2021-11-04 03:21:37.735 [main] Listeners - Successfully passed testcase:verifyContactsLabelTest
+/pattern>[INFO ] 2021-11-04 03:21:43.646 [main] Listeners - Successfully passed testcase:FreeCrmLogoTest
+/pattern>[INFO ] 2021-11-04 03:21:49.136 [main] LoginPage2Test - Driver invoked and launched the browser successfully
+/pattern>[INFO ] 2021-11-04 03:21:55.484 [main] Listeners - Successfully passed testcase:Login1Test
+/pattern>

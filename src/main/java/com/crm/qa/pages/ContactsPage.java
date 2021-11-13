@@ -34,13 +34,15 @@ public class ContactsPage extends TestBase {
         return contactsLabel.isDisplayed();
     }
 
-    public void verifyContactsByName(){
-        driver.findElement(By.xpath("//a[contains(text(),'tet ll')]")).click();
+   /* public void verifyContactsByName(String name) throws InterruptedException {
+       *//* driver.findElement(By.xpath("//a[contains(text(),'tet ll')]")).click();*//*
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//a[contains(text(),'"+name+"')]//..//..//..")).click();
 
 
        //driver.findElement(By.xpath("//a[text()='"+name+"']//parent::td[@class='datalistrow']"
                // + "//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']")).click();
-    }
+    }*/
 
     public void addContacts(String fname, String lname, String comp) throws InterruptedException {
         Actions action = new Actions(driver);

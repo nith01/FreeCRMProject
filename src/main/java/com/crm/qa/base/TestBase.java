@@ -25,9 +25,7 @@ public class TestBase {
         try {
             prop = new Properties();
             FileInputStream in = new FileInputStream(
-                    "C:/Users/nitha/IdeaFrameworkProjects" +
-                            "/src/main/java/com/crm/qa/config/" +
-                            "config.properties");
+                    "C:\\Users\\nitha\\IdeaFrameworkProjects\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
             prop.load(in);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -40,17 +38,17 @@ public class TestBase {
         String browserName = prop.getProperty("browser");
         if (browserName.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver",
-                    "C://innovapath//innovapath_selenium//chromedriver.exe");
+                    ".\\resources\\driver\\chromedriver.exe");
+           // create a driver object for Chrome browser
             driver = new ChromeDriver();
         } else if (browserName.equals("firefox")) {
             System.setProperty("webdriver.gecko.driver",
-                    "C://innovapath//innovapath_selenium//geckodriver.exe");
+                    ".\\resources\\driver\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
 
         e_driver=new EventFiringWebDriver(driver);
-        //now create object of EventListenerHandler to register it with EventFiringWebDriver
-        eventListener = new WebEventListener();
+        eventListener = new WebEventListener(); //create object of EventListenerHandler to register it with EventFiringWebDriver
         e_driver.register(eventListener);
         driver = e_driver;
 

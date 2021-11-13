@@ -61,5 +61,6 @@ public HomePageTest(){
     @AfterMethod
     public void teardown(){
     driver.quit();
+
     }
 }

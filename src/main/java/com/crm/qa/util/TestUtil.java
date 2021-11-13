@@ -26,8 +26,8 @@ public class TestUtil extends TestBase {
 
     private static Logger Log = LogManager.getLogger(TestUtil.class);
 
-    public static long PAGE_LOAD_TIMEOUT = 20;
-    public static long IMPLICIT_WAIT = 10;
+    public static long PAGE_LOAD_TIMEOUT = 40;
+    public static long IMPLICIT_WAIT = 30;
     //private static FileHelper FileUtils;
 
     public static Object[][] getExcelData(String fileName, String sheetName) {
@@ -37,12 +37,12 @@ public class TestUtil extends TestBase {
             wb = new XSSFWorkbook("C:\\Users\\nitha\\IdeaFrameworkProjects\\src\\main\\java\\com\\crm\\qa\\testData\\FreeCRMtestData.xlsx");
             XSSFSheet sheet = wb.getSheet(sheetName);
             int rowsIndex = sheet.getLastRowNum();//return last raw index-index starts from 0
-            Log.info("Total rows:" + rowsIndex);
+            //Log.info("Total rows:" + rowsIndex);
             data = new Object[rowsIndex][];
             for (int i = 1; i <= rowsIndex; i++) {
                 XSSFRow row = sheet.getRow(i);
                 int cols = row.getLastCellNum();//returns no:of columns- index start from 0
-                Log.info("total cols:" + cols);
+               // Log.info("total cols:" + cols);
                 Object[] colData = new Object[cols];
                 for (int j = 0; j < cols; j++) {
                     colData[j] = row.getCell(j).toString();
@@ -51,7 +51,7 @@ public class TestUtil extends TestBase {
             }
 
         } catch (IOException e) {
-            Log.error("TestUtil exception:" + e);
+           // Log.error("TestUtil exception:" + e);
 
         } finally {
             try {
@@ -63,25 +63,17 @@ public class TestUtil extends TestBase {
         return data;
     }
 
-   // public static void takeScreenshotAtEndOfTest() throws IOException {
-      /*  File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String currentDir = System.getProperty("C:\\Users\\nitha\\IdeaFrameworkProjects\\screenshot.png");
-        FileUtils.copyFile(srcFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));*/
-    /* File SrcFile=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        File DestFile= new File("C:\\screenshot\\screenshot.png");
-        FileUtils.copyFile(SrcFile, DestFile);
-    }*/
+    public static void takeScreenshotAtEndOfTest() throws IOException {
+        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        String currentDir = System.getProperty("user.dir");
+        FileHandler.copy
+                (srcFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 
-      /*  File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        String currentDir =System.getProperty("C:\\Users\\nitha\\IdeaFrameworkProjects\\src\\main\\resources");//\src\test\resources
-        FileUtils.copyFile(srcFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis()+ ".png"));
-    }*/
+    }
 }
 
 
 
-     /*public void switchToFrame(){
-       driver.switchTo().frame("mainpanel");
-   }*/
+
 
 

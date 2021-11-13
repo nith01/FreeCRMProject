@@ -14,7 +14,7 @@ import java.io.IOException;
 
 public class LoginPage1Test extends TestBase {
 
-    //private static Logger Log = LogManager.getLogger(LoginPage2Test.class);
+    private static Logger Log = LogManager.getLogger(LoginPage2Test.class);
     LoginPage1 loginpage1;
     LoginPage2 loginpage2;
     LoginPage1Test() throws IOException {
@@ -36,7 +36,7 @@ public class LoginPage1Test extends TestBase {
     @Test(priority = 2)
     public void FreeCrmLogoTest(){
         boolean logo= loginpage1.validateFreeCrmLogo();
-        //Log.info("Successfully validated the logo FreeCRM");
+        Log.info("Successfully validated the logo FreeCRM");
         Assert.assertTrue(logo);
     }
     @Test(priority = 3)

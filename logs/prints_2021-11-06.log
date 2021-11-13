@@ -1,0 +1,10 @@
+[INFO ] 2021-11-06 00:26:57,867 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
+[INFO ] 2021-11-06 00:27:08,555 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2021-11-06 00:27:11,099 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
+[INFO ] 2021-11-06 00:27:11,607 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
+[INFO ] 2021-11-06 00:27:39,280 Listeners.onTestSuccess() - Successfully passed testcase:homepageTitleTest
+[INFO ] 2021-11-06 00:27:59,711 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest
+[INFO ] 2021-11-06 00:28:08,891 LoginPage2Test.FreeCrmLogoTest() - Successfully validated the logo FreeCRM
+[INFO ] 2021-11-06 00:28:09,326 Listeners.onTestSuccess() - Successfully passed testcase:FreeCrmLogoTest
+[INFO ] 2021-11-06 00:28:17,602 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2021-11-06 00:28:26,559 Listeners.onTestSuccess() - Successfully passed testcase:Login1Test

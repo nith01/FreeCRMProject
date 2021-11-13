@@ -30,7 +30,7 @@ public class LoginPage2Test extends TestBase {
 
     public void setUp() throws IOException {
         initialization();
-        Log.info("Driver invoked and launched the browser successfully");
+       Log.info("Driver invoked and launched the browser successfully");
         loginpage1=new LoginPage1();
         loginpage2= loginpage1.validateLogin2();
     }
@@ -38,7 +38,7 @@ public class LoginPage2Test extends TestBase {
     @Test(priority=1)
     public void loginPage2TitleTest(){
         String title = loginpage2.validateLoginPage2Title();
-        Log.info("Successfully validated the title");
+       Log.info("Successfully validated the title");
         Assert.assertEquals(title, "Cogmento CRM", "LoginPage2 title not matched");
     }
     @Test(priority = 2)

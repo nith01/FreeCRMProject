@@ -4,6 +4,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.crm.qa.base.TestBase;
+import com.crm.qa.util.TestUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
@@ -18,7 +19,7 @@ public class Listeners extends TestBase implements ITestListener {
     }
     ExtentReports extent = ExtentReporterNG.getReportObject();
     ExtentTest test;
-    public static Logger Log = LogManager.getLogger(Listeners.class);
+   public static Logger Log = LogManager.getLogger(Listeners.class);
 
     @Override
     public void onTestStart(ITestResult result) {
@@ -27,8 +28,14 @@ public class Listeners extends TestBase implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-         test.generateLog(Status.PASS,"Test Passed");
-         Log.info("Successfully passed testcase:" + result.getMethod().getMethodName());
+        try {
+            TestUtil.takeScreenshotAtEndOfTest();
+        }catch(IOException e) {
+            e.printStackTrace();
+        }
+
+        test.generateLog(Status.PASS,"Test Passed");
+        Log.info("Successfully passed testcase:" + result.getMethod().getMethodName());
     }
 
     @Override

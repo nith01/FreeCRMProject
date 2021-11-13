@@ -45,17 +45,20 @@ public class ContactsPageTest extends TestBase {
         Assert.assertTrue(contactsLink.verifyContactsLabel(),"contact label is missing on the page");
     }
 
-    @Test(priority = 2)
-    public void verifyContactsByNameTest(){
-        contactsLink.verifyContactsByName();
-    }
+   /* @Test(priority = 2)
+    public void verifyContactsByNameTest() throws InterruptedException {
+        contactsLink.verifyContactsByName("tet ll");
+        contactsLink.verifyContactsByName("Sam Mathew");
+
+        //contactsLink.verifyContactsByName();
+    }*/
     @DataProvider
     public Object[][] getFreeCRMTestData(){
       Object data[][] = TestUtil.getExcelData("FreeCRMtestData.xlsx","Sheet1" );
       return data;
     }
 
-    @Test(priority = 3,dataProvider =  "getFreeCRMTestData")
+    @Test(priority = 2,dataProvider =  "getFreeCRMTestData")
     public void validateAddContact(String firstName, String lastName, String company) throws InterruptedException {
         homepage.clickOnAddContacts();
         //contactsLink.addContacts("Angel","sts","Facebook");
