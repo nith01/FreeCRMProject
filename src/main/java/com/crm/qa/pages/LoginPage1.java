@@ -2,6 +2,7 @@ package com.crm.qa.pages;
 
 import com.crm.qa.base.TestBase;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -10,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage1 extends TestBase {
     //PageFactory:OR
     @FindBy(xpath= "//header/div[1]/nav[1]/div[1]/div[1]/a[1]")
+    //@CacheLookup -store the webElement in Cache memory
     WebElement Login;
     @FindBy(xpath= "//span[@class='mdi-chart-bar icon icon-md']")
     WebElement SignUp;

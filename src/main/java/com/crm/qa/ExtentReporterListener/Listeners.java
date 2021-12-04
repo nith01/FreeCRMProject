@@ -48,18 +48,14 @@ public class Listeners extends TestBase implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult result) {
-
-
     }
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-
     }
 
     @Override
     public void onStart(ITestContext context) {
-
     }
 
     @Override

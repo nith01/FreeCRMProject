@@ -36,7 +36,7 @@ public class ContactsPageTest extends TestBase {
         contactsLink = new ContactsPage();
         homepage= loginpage2.validateLogin1(prop.getProperty("username"),prop.getProperty("password"));
         //testUtil.getTestData();
-        //contactsLink= homepage.clickOnContactsLink();
+
 
     }
 
@@ -49,7 +49,6 @@ public class ContactsPageTest extends TestBase {
     public void verifyContactsByNameTest() throws InterruptedException {
         contactsLink.verifyContactsByName("tet ll");
         contactsLink.verifyContactsByName("Sam Mathew");
-
         //contactsLink.verifyContactsByName();
     }*/
     @DataProvider

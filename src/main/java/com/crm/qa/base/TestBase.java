@@ -25,7 +25,8 @@ public class TestBase {
         try {
             prop = new Properties();
             FileInputStream in = new FileInputStream(
-                    "C:\\Users\\nitha\\IdeaFrameworkProjects\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+                    "C:\\Users\\nitha\\IdeaFrameworkProjects\\" +
+            "src\\main\\java\\com\\crm\\qa\\config\\config.properties");
             prop.load(in);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
