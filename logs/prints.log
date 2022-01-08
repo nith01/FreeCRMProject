@@ -1,18 +1,5 @@
-[INFO ] 2021-11-13 02:38:00,367 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
-[INFO ] 2021-11-13 02:38:06,566 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
-[INFO ] 2021-11-13 02:38:07,531 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
-[INFO ] 2021-11-13 02:38:07,814 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
-[INFO ] 2021-11-13 02:38:21,180 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest
-[INFO ] 2021-11-13 02:38:33,995 Listeners.onTestSuccess() - Successfully passed testcase:homepageTitleTest
-[INFO ] 2021-11-13 02:38:39,184 LoginPage2Test.FreeCrmLogoTest() - Successfully validated the logo FreeCRM
-[INFO ] 2021-11-13 02:38:39,610 Listeners.onTestSuccess() - Successfully passed testcase:FreeCrmLogoTest
-[INFO ] 2021-11-13 02:38:45,148 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
-[INFO ] 2021-11-13 02:38:54,147 Listeners.onTestSuccess() - Successfully passed testcase:Login1Test
-[INFO ] 2021-11-13 02:39:26,818 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
-[INFO ] 2021-11-13 02:40:25,471 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
-[INFO ] 2021-11-13 02:41:16,487 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
-[INFO ] 2021-11-13 02:42:01,972 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
-[INFO ] 2021-11-13 02:42:32,775 Listeners.onTestSuccess() - Successfully passed testcase:verifyUsernameLabelTest
-[INFO ] 2021-11-13 02:42:47,517 Listeners.onTestSuccess() - Successfully passed testcase:validateLogin1Test
-[INFO ] 2021-11-13 02:43:31,683 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLinkTest
-[INFO ] 2021-11-13 02:44:17,916 Listeners.onTestSuccess() - Successfully passed testcase:clickOnAddContactsTest
+[INFO ] 2022-01-07 16:43:12,348 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
+[INFO ] 2022-01-07 16:43:18,487 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2022-01-07 16:43:19,569 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
+[INFO ] 2022-01-07 16:43:19,570 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
+[INFO ] 2022-01-07 16:43:30,167 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest

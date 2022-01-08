@@ -23,16 +23,12 @@ public class Listeners extends TestBase implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-         test = extent.createTest(result.getMethod().getMethodName());
+
+        test = extent.createTest(result.getMethod().getMethodName());  //this returns the name of the method which is going to be tested
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        try {
-            TestUtil.takeScreenshotAtEndOfTest();
-        }catch(IOException e) {
-            e.printStackTrace();
-        }
 
         test.generateLog(Status.PASS,"Test Passed");
         Log.info("Successfully passed testcase:" + result.getMethod().getMethodName());
@@ -40,6 +36,12 @@ public class Listeners extends TestBase implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
+
+        try {
+            TestUtil.takeScreenshotAtEndOfTest();
+        }catch(IOException e) {
+            e.printStackTrace();
+        }
         System.out.println("failed the execution");
         System.out.println("test case failed at: "+result.getName());
         test.fail(result.getThrowable());
@@ -48,6 +50,8 @@ public class Listeners extends TestBase implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult result) {
+        System.out.println("Skipped the execution");
+        System.out.println("test case skipped at: "+result.getName());
     }
 
     @Override
@@ -60,6 +64,7 @@ public class Listeners extends TestBase implements ITestListener {
 
     @Override
     public void onFinish(ITestContext context) {
-      extent.flush();
+
+        extent.flush(); //to remove previous reports
     }
 }

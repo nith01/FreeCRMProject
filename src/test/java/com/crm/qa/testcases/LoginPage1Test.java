@@ -14,7 +14,7 @@ import java.io.IOException;
 
 public class LoginPage1Test extends TestBase {
 
-    private static Logger Log = LogManager.getLogger(LoginPage2Test.class);
+    private static Logger Log = LogManager.getLogger(LoginPage1Test.class);
     LoginPage1 loginpage1;
     LoginPage2 loginpage2;
     LoginPage1Test() throws IOException {

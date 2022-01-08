@@ -26,45 +26,5 @@
     </Loggers>
 </Configuration>
 
-<!--
-<?xml version="1.0" encoding="UTF-8"?>
-<Configuration status = "warn">
-    <Properties>
-        <Property name = "basePath">./logs</Property>
-    </Properties>
-    &lt;!&ndash;<Appenders>
-        <RollingFile name = "fileLogger" fileName="${basePath}/app-info.log" filePattern="${basePath}/app-info-%d{yyyy-MM-dd}.log">
-            <PatternLayout>
-                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n/pattern></pattern>
-            </PatternLayout>
-            <Policies>
-                <TimeBasedTriggeringPolicy interval ="1" modulate="true" />
-            </Policies>
-        </RollingFile>
-        <Console name="console" target="SYSTEM_OUT">
-            <PatternLayout pattern = "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
-        </Console>
 
-    </Appenders>&ndash;&gt;
-    <Appenders>
-        <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-            <SizeBasedTriggeringPolicy size="500" />
-        </RollingFile>
-        <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-        </Console>
-    </Appenders>
 
-   &lt;!&ndash; <Loggers>
-        <Root level="trace" additivity ="false">
-            <AppenderRef ref="console" level="all" />
-            <AppenderRef ref="fileLogger" level="info"/>
-        </Root>
-    </Loggers>&ndash;&gt;
-    <Loggers>
-        <Root level="trace">
-            <AppenderRef ref="File"/>
-        </Root>
-    </Loggers>
-</Configuration>-->

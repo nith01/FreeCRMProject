@@ -1,0 +1,18 @@
+[INFO ] 2022-01-05 20:20:44,998 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
+[INFO ] 2022-01-05 20:20:50,720 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2022-01-05 20:20:51,526 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
+[INFO ] 2022-01-05 20:20:51,527 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
+[INFO ] 2022-01-05 20:21:03,114 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest
+[INFO ] 2022-01-05 20:21:14,585 Listeners.onTestSuccess() - Successfully passed testcase:homepageTitleTest
+[ERROR] 2022-01-05 20:21:50,963 Listeners.onTestFailure() - failed testcase:FreeCrmLogoTest
+[INFO ] 2022-01-05 20:21:56,752 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2022-01-05 20:22:03,007 Listeners.onTestSuccess() - Successfully passed testcase:Login1Test
+[INFO ] 2022-01-05 20:22:33,775 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2022-01-05 20:23:03,294 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2022-01-05 20:23:33,719 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2022-01-05 20:24:04,793 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2022-01-05 20:24:18,541 Listeners.onTestSuccess() - Successfully passed testcase:verifyUsernameLabelTest
+[INFO ] 2022-01-05 20:24:26,476 Listeners.onTestSuccess() - Successfully passed testcase:validateLogin1Test
+[INFO ] 2022-01-05 20:24:39,471 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsByNameTest
+[INFO ] 2022-01-05 20:24:51,700 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLinkTest
+[INFO ] 2022-01-05 20:25:18,759 Listeners.onTestSuccess() - Successfully passed testcase:clickOnAddContactsTest

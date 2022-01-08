@@ -48,7 +48,7 @@ public class TestBase {
             driver = new FirefoxDriver();
         }
 
-        e_driver=new EventFiringWebDriver(driver);
+        e_driver=new EventFiringWebDriver(driver);  //create an object for EventFiringWEbDriver
         eventListener = new WebEventListener(); //create object of EventListenerHandler to register it with EventFiringWebDriver
         e_driver.register(eventListener);
         driver = e_driver;

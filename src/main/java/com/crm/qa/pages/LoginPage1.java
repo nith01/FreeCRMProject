@@ -11,15 +11,16 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage1 extends TestBase {
     //PageFactory:OR
     @FindBy(xpath= "//header/div[1]/nav[1]/div[1]/div[1]/a[1]")
-    //@CacheLookup -store the webElement in Cache memory
+    //@CacheLookup //-store the webElement in Cache memory
     WebElement Login;
     @FindBy(xpath= "//span[@class='mdi-chart-bar icon icon-md']")
     WebElement SignUp;
-    @FindBy(xpath="//a[(@class= \"brand-name\")and (@title=\"free crm home\")]")
+    @FindBy(xpath="//a[(@class= \"brand-name\")and (@title=\"free crm homes\")]")    //deliberately making error in xpath(instead of 'home' giving 'homes'
     WebElement FreeCrmLogo;
 
     //initialize the page Objects:
     public LoginPage1(){
+
         PageFactory.initElements(driver,this);
     }
 

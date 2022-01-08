@@ -26,9 +26,8 @@ public class HomePage extends TestBase {
 
   //Initializing the PageObject
   public HomePage(){
-    PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver,this);
   }
-
   //Actions
   public boolean verifyUsernameLabel(){
     return usernameLabel.isDisplayed();
