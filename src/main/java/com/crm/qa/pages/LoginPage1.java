@@ -15,7 +15,7 @@ public class LoginPage1 extends TestBase {
     WebElement Login;
     @FindBy(xpath= "//span[@class='mdi-chart-bar icon icon-md']")
     WebElement SignUp;
-    @FindBy(xpath="//a[(@class= \"brand-name\")and (@title=\"free crm homes\")]")    //deliberately making error in xpath(instead of 'home' giving 'homes'
+    @FindBy(xpath="//a[(@class= \"brand-name\")and (@title=\"free crm home\")]")    //deliberately making error in xpath(instead of 'home' giving 'homes'
     WebElement FreeCrmLogo;
 
     //initialize the page Objects:
