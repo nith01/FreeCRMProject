@@ -27,7 +27,7 @@ public class TestUtil extends TestBase {
         try {
             wb = new XSSFWorkbook("C:\\Users\\nitha\\IdeaFrameworkProjects\\src\\main\\java\\com\\crm\\qa\\testData\\FreeCRMtestData.xlsx");
             XSSFSheet sheet = wb.getSheet(sheetName);
-            int rowsIndex = sheet.getLastRowNum();  //return last raw row number ie, how many data sets we want to run-row index starts from 0, so last row no is 4
+            int rowsIndex = sheet.getLastRowNum();  //return last row number ie, how many data sets we want to run-row index starts from 0, so last row no is 4
             Log.info("Total rows:" + rowsIndex);
             data = new Object[rowsIndex][];
             //this loop is to enter into each row

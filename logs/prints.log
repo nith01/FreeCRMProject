@@ -1,5 +1,24 @@
-[INFO ] 2022-01-07 16:43:12,348 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
-[INFO ] 2022-01-07 16:43:18,487 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
-[INFO ] 2022-01-07 16:43:19,569 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
-[INFO ] 2022-01-07 16:43:19,570 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
-[INFO ] 2022-01-07 16:43:30,167 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest
+[INFO ] 2022-01-25 21:48:20,304 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
+[INFO ] 2022-01-25 21:48:25,227 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2022-01-25 21:48:25,972 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
+[INFO ] 2022-01-25 21:48:25,974 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
+[INFO ] 2022-01-25 21:48:36,814 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest
+[INFO ] 2022-01-25 21:48:47,476 Listeners.onTestSuccess() - Successfully passed testcase:homepageTitleTest
+[INFO ] 2022-01-25 21:48:52,169 LoginPage1Test.FreeCrmLogoTest() - Successfully validated the logo FreeCRM
+[INFO ] 2022-01-25 21:48:52,170 Listeners.onTestSuccess() - Successfully passed testcase:FreeCrmLogoTest
+[INFO ] 2022-01-25 21:48:56,543 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2022-01-25 21:49:02,559 Listeners.onTestSuccess() - Successfully passed testcase:Login1Test
+[INFO ] 2022-01-25 21:49:04,025 TestUtil.getExcelData() - Total rows:4
+[INFO ] 2022-01-25 21:49:04,026 TestUtil.getExcelData() - total cols:3
+[INFO ] 2022-01-25 21:49:04,038 TestUtil.getExcelData() - total cols:3
+[INFO ] 2022-01-25 21:49:04,039 TestUtil.getExcelData() - total cols:3
+[INFO ] 2022-01-25 21:49:04,040 TestUtil.getExcelData() - total cols:3
+[ERROR] 2022-01-25 21:50:01,445 Listeners.onTestFailure() - failed testcase:validateAddContact
+[INFO ] 2022-01-25 21:50:30,325 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2022-01-25 21:50:57,756 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2022-01-25 21:51:25,317 Listeners.onTestSuccess() - Successfully passed testcase:validateAddContact
+[INFO ] 2022-01-25 21:51:34,935 Listeners.onTestSuccess() - Successfully passed testcase:verifyUsernameLabelTest
+[INFO ] 2022-01-25 21:51:39,932 Listeners.onTestSuccess() - Successfully passed testcase:validateLogin1Test
+[ERROR] 2022-01-25 21:52:20,430 Listeners.onTestFailure() - failed testcase:verifyContactsByNameTest
+[INFO ] 2022-01-25 21:52:31,434 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLinkTest
+[INFO ] 2022-01-25 21:52:57,440 Listeners.onTestSuccess() - Successfully passed testcase:clickOnAddContactsTest

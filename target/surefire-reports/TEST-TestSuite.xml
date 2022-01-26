@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.756" tests="45" errors="0" skipped="41" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\nitha\IdeaFrameworkProjects\target\test-classes;C:\Users\nitha\IdeaFrameworkProjects\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire7105415894441614294\surefirebooter4213496551369248554.jar C:\Windows\Temp\surefire7105415894441614294 2022-01-19T21-46-18_844-jvmRun1 surefire6690121387494563472tmp surefire_06401196758416565782tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\nitha\IdeaFrameworkProjects\target\test-classes;C:\Users\nitha\IdeaFrameworkProjects\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\nitha\IdeaFrameworkProjects"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire7105415894441614294\surefirebooter4213496551369248554.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="DESKTOP-R1MUA42$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\nitha\IdeaFrameworkProjects"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMtestJob/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\Mozilla Firefox;C:\intellipaat\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\intellipaat\apache-maven-3.6.3\bin;C:\Users\nitha\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\nitha\AppData\Local\Programs\Python\Python39\;C:\linkedin_python\geckodriver-v0.29.0-win64;C:\linkedin_python\chromedriver_win32;C:\Program Files\Java11;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Android_sdk\platform-tools;C:\Android_sdk\tools;C:\Android_sdk\platforms;C:\Program Files\nodejs;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPage1Test" time="5.075">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.LoginPage1Test.setUp(LoginPage1Test.java:25)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 39506
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginPage1TitleTest" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: loginPage1TitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPage2Test" time="6.306">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.LoginPage2Test.setUp(LoginPage2Test.java:32)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 47256
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPage2Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginPage2TitleTest" classname="com.crm.qa.testcases.LoginPage2Test" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: loginPage2TitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.LoginPage2Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.LoginPage2Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="7.691">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 34068
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[[INFO ] 2022-01-19 21:46:29,443 TestUtil.getExcelData() - Total rows:4
+[INFO ] 2022-01-19 21:46:29,456 TestUtil.getExcelData() - total cols:3
+[INFO ] 2022-01-19 21:46:29,475 TestUtil.getExcelData() - total cols:3
+[INFO ] 2022-01-19 21:46:29,478 TestUtil.getExcelData() - total cols:3
+[INFO ] 2022-01-19 21:46:29,479 TestUtil.getExcelData() - total cols:3
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyContactsLabelTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: verifyContactsLabelTest
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="8.919">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:34)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 7527
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="homepageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: homepageTitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="FreeCrmLogoTest" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: FreeCrmLogoTest
+]]></system-out>
+  </testcase>
+  <testcase name="Login1Test" classname="com.crm.qa.testcases.LoginPage2Test" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: Login1Test
+]]></system-out>
+  </testcase>
+  <testcase name="validateAddContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: validateAddContact
+]]></system-out>
+  </testcase>
+  <testcase name="validateAddContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: validateAddContact
+]]></system-out>
+  </testcase>
+  <testcase name="validateAddContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: validateAddContact
+]]></system-out>
+  </testcase>
+  <testcase name="validateAddContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: validateAddContact
+]]></system-out>
+  </testcase>
+  <testcase name="verifyUsernameLabelTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: verifyUsernameLabelTest
+]]></system-out>
+  </testcase>
+  <testcase name="validateLogin1Test" classname="com.crm.qa.testcases.LoginPage1Test" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: validateLogin1Test
+]]></system-out>
+  </testcase>
+  <testcase name="verifyContactsByNameTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: verifyContactsByNameTest
+]]></system-out>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: verifyContactsLinkTest
+]]></system-out>
+  </testcase>
+  <testcase name="clickOnAddContactsTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 95&#10;Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-R1MUA42&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B506F3+2492147]&#10;	Ordinal0 [0x00AE9BD1+2071505]&#10;	Ordinal0 [0x009F2478+1057912]&#10;	Ordinal0 [0x00A10631+1181233]&#10;	Ordinal0 [0x00A0C43B+1164347]&#10;	Ordinal0 [0x00A09C9F+1154207]&#10;	Ordinal0 [0x00A39DFF+1351167]&#10;	Ordinal0 [0x00A39A6A+1350250]&#10;	Ordinal0 [0x00A3568B+1332875]&#10;	Ordinal0 [0x00A121D4+1188308]&#10;	Ordinal0 [0x00A1302F+1191983]&#10;	GetHandleVerifier [0x00CD67A6+1545030]&#10;	GetHandleVerifier [0x00D8105C+2243580]&#10;	GetHandleVerifier [0x00BDBC97+518199]&#10;	GetHandleVerifier [0x00BDAD80+514336]&#10;	Ordinal0 [0x00AEED2D+2092333]&#10;	Ordinal0 [0x00AF2EE8+2109160]&#10;	Ordinal0 [0x00AF3022+2109474]&#10;	Ordinal0 [0x00AFCB71+2149233]&#10;	BaseThreadInitThunk [0x75D6FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]&#10;"/>
+    <system-out><![CDATA[Skipped the execution
+test case skipped at: clickOnAddContactsTest
+]]></system-out>
+  </testcase>
+</testsuite>

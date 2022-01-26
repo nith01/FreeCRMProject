@@ -33,7 +33,7 @@ public HomePageTest(){
     public void setUp() throws IOException, InterruptedException {
         initialization();
         loginpage1=new LoginPage1();
-        loginpage2= loginpage1.validateLogin2();
+        loginpage2=loginpage1.validateLogin2();
         loginpage2 =new LoginPage2();
         contactsLink = new ContactsPage();
         homepage= loginpage2.validateLogin1(prop.getProperty("username"),prop.getProperty("password"));
@@ -61,6 +61,5 @@ public HomePageTest(){
     @AfterMethod
     public void teardown(){
     driver.quit();
-
     }
 }

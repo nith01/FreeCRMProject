@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 4, Errors: 0, Skipped: 41, Time elapsed: 10.756 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.testcases.LoginPage1Test)  Time elapsed: 5.075 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.LoginPage1Test.setUp(LoginPage1Test.java:25)
+
+setUp(com.crm.qa.testcases.LoginPage2Test)  Time elapsed: 6.306 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.LoginPage2Test.setUp(LoginPage2Test.java:32)
+
+setUp(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 7.691 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+
+setUp(com.crm.qa.testcases.HomePageTest)  Time elapsed: 8.919 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 97.0.4692.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R1MUA42', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B506F3+2492147]
+	Ordinal0 [0x00AE9BD1+2071505]
+	Ordinal0 [0x009F2478+1057912]
+	Ordinal0 [0x00A10631+1181233]
+	Ordinal0 [0x00A0C43B+1164347]
+	Ordinal0 [0x00A09C9F+1154207]
+	Ordinal0 [0x00A39DFF+1351167]
+	Ordinal0 [0x00A39A6A+1350250]
+	Ordinal0 [0x00A3568B+1332875]
+	Ordinal0 [0x00A121D4+1188308]
+	Ordinal0 [0x00A1302F+1191983]
+	GetHandleVerifier [0x00CD67A6+1545030]
+	GetHandleVerifier [0x00D8105C+2243580]
+	GetHandleVerifier [0x00BDBC97+518199]
+	GetHandleVerifier [0x00BDAD80+514336]
+	Ordinal0 [0x00AEED2D+2092333]
+	Ordinal0 [0x00AF2EE8+2109160]
+	Ordinal0 [0x00AF3022+2109474]
+	Ordinal0 [0x00AFCB71+2149233]
+	BaseThreadInitThunk [0x75D6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D47A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D47A6E+238]
+
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:34)
+

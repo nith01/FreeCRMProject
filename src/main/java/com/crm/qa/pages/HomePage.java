@@ -40,6 +40,7 @@ public class HomePage extends TestBase {
   public ContactsPage clickOnContactsLink(){
     contactsLink.click();
     return new ContactsPage();  }
+
   public ContactsPage clickOnAddContacts() throws InterruptedException {
     Thread.sleep(5000);
     contactsIcon.click();

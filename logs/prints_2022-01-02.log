@@ -16,3 +16,4 @@
 [INFO ] 2022-01-02 22:00:18,985 Listeners.onTestSuccess() - Successfully passed testcase:validateLogin1Test
 [INFO ] 2022-01-02 22:00:35,370 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLinkTest
 [INFO ] 2022-01-02 22:01:03,907 Listeners.onTestSuccess() - Successfully passed testcase:clickOnAddContactsTest
+

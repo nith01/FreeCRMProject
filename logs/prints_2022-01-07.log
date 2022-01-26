@@ -1,0 +1,5 @@
+[INFO ] 2022-01-07 16:43:12,348 Listeners.onTestSuccess() - Successfully passed testcase:loginPage1TitleTest
+[INFO ] 2022-01-07 16:43:18,487 LoginPage2Test.setUp() - Driver invoked and launched the browser successfully
+[INFO ] 2022-01-07 16:43:19,569 LoginPage2Test.loginPage2TitleTest() - Successfully validated the title
+[INFO ] 2022-01-07 16:43:19,570 Listeners.onTestSuccess() - Successfully passed testcase:loginPage2TitleTest
+[INFO ] 2022-01-07 16:43:30,167 Listeners.onTestSuccess() - Successfully passed testcase:verifyContactsLabelTest

@@ -14,7 +14,7 @@ public class ExtentReporterNG {
         reporter.config().setDocumentTitle("Test Results");
         extent = new ExtentReports();
         extent.attachReporter(reporter);
-        extent.setSystemInfo("Tester", "Nitha");
+        extent.setSystemInfo("Tester", "Nitha");//C:\Users\nitha\IdeaFrameworkProjects\reports\Extent.html
         return extent;
 
     }
